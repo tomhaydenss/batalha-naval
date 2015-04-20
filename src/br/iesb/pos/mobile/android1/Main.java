@@ -15,7 +15,8 @@ public class Main {
 				System.in));
 
 		while (!grelha.gameOver()) {
-			grelha.exibirTudo();
+			//grelha.exibirTudo();
+			grelha.exibirTentativas();
 
 			System.out
 					.print("\n\nInforme a coordenada (ex. A10) ou S para SAIR: ");
